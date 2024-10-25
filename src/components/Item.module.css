@@ -1,0 +1,67 @@
+.link {
+	color: rgb(255, 255, 255);
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr auto auto;
+	align-items: center;
+	gap: 5px;
+	margin-bottom: 20px;
+}
+
+.checkbox {
+	color: #ffffff;
+	justify-self: start;
+	max-width: 10px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 18px;
+	color: #ffffff;
+	justify-self: start;
+	max-width: 500px;
+	word-break: break-all;
+}
+
+.date {
+	font-weight: 600;
+	font-size: 18px;
+	color: #ffffff;
+	margin-right: 10px;
+	justify-self: end;
+}
+
+.button {
+	width: 30px;
+	height: 30px;
+	font-weight: 900;
+	background-color: #7c024bb4;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #e9268b;
+}
+
+.editButton {
+	padding: 0px 30px;
+	width: auto;
+	height: 30px;
+	font-weight: 700;
+	font-size: 16px;
+	background-color: #ffffff32;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.editButton:hover {
+	background-color: #ff23a7;
+}
